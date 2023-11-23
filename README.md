@@ -14,19 +14,19 @@ This Docker Compose configuration sets up a Nextcloud instance connected to a Ma
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/aqasiz/docker-compose.git
+    git clone https://github.com/aqasiz/Next-Cloud.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd docker-compose
+    cd Next-Cloud
     ```
 
 3. Run the Docker Compose command to start the services:
 
     ```bash
-    docker-compose up -d
+    docker-compose -f next-cloud.yml up -d
     ```
 
     This will create and start the Nextcloud and MariaDB containers in the background.
